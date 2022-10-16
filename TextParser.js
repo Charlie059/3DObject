@@ -69,7 +69,7 @@ class TextParser {
             const currVertexArr = [];
 
             // Record plane info and push to the currVertexArr
-            for (let j = 0; j < 3; j++) {
+            for (let j = 0; j < planeLine.length; j++) {
                 currVertexArr.push(vertexMap.get(parseInt(planeLine[j])));
             }
 
